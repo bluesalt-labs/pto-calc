@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PTOCalc.iml" filepath="$PROJECT_DIR$/.idea/PTOCalc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pto-calc/.idea/pto-calc.iml" filepath="$PROJECT_DIR$/../pto-calc/.idea/pto-calc.iml" />
     </modules>
   </component>
 </project>
