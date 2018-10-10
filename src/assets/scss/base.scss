@@ -14,8 +14,10 @@ $color-warm: #EAC67A;
 $color-primary: $color-evening;
 $color-secondary: $color-stormy;
 $color-text: $color-default;
+$color-border: darken($color-default, 25%);
 $color-warning: $color-warm;
 $color-danger: $color-rusty;
+
 
 /* end colors */
 
@@ -75,4 +77,13 @@ html, body, #app, .main-container {
 /* components */
 .container {
   padding: 0 15px;
+}
+
+hr { border: 0.5px solid $color-border; }
+
+input[type="text"], textarea {
+  background-color: darken($color-primary, 5%);
+  color: lighten($color-text, 25%);
+  border-radius: 6px;
+  border-color: $color-border;
 }

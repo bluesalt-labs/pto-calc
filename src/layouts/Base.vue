@@ -13,16 +13,14 @@
   import Footer from "./Footer.vue"
 
   export default {
+    name: 'Base',
     components: {
       Header,
       Footer
-    },
-    name: 'Base'
+    }
   }
 </script>
 
 <style lang="scss">
   @import "./src/assets/scss/base.scss";
-
-
 </style>
