@@ -1,4 +1,9 @@
 {
-  "foo": "bar",
-  "bar": "foo"
+  "start_date": "2018-09-01",
+  "start_hours": "60",
+  "hours_per_period": 6,
+  "pay_period_days" : [ 5, 20 ],
+  "hours_used": {
+    "2018-10-26": 8
+  }
 }
