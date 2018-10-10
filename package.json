@@ -1,0 +1,11 @@
+{
+  "name": "ptocalc",
+  "version": "1.0.0",
+  "description": "Paid Time Off Calculator",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Sontrop <luke@bluesaltlabs.com>",
+  "license": "MIT"
+}
