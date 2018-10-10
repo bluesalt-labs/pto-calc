@@ -4,6 +4,23 @@
 
 const path = require('path')
 
+module.loaders = [
+  {
+    test: /\.vue$/,
+    loader: 'vue'
+  },
+  {
+    test: /\.s[a|c]ss$/,
+    loader: 'style!css!sass'
+  }
+]
+
+module.vue = {
+  loaders: {
+    scss: 'style!css!sass'
+  }
+}
+
 module.exports = {
   dev: {
 
