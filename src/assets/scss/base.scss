@@ -9,20 +9,24 @@ $color-evening: #192231;
 $color-navy: #14141E;
 $color-gunmetal: #232a3c;
 $color-rusty: #984B43;
-$color-warm: #EAC67A;
+$color-warm-green: #4D8D5B;
+$color-warm-yellow: #EAC67A;
 
 $color-primary: $color-evening;
 $color-secondary: $color-stormy;
 $color-text: $color-default;
 $color-border: darken($color-default, 25%);
-$color-warning: $color-warm;
+
+$color-success: $color-warm-green;
+$color-warning: $color-warm-yellow;
 $color-danger: $color-rusty;
+
 /* end colors */
 
 /* percentages */
 $percent-full:    100%;
 $percent-half:    50%;  
-$percent-third:   33%; 
+$percent-third:   33.3333%;
 $percent-fourth:  25%;  
 $percent-fifth:   20%; 
 $percent-sixth:   16.6666%; 
@@ -100,7 +104,8 @@ html, body, #app, .main-container {
 
   .container-2,.container-3,.container-4,.container-5,.container-6,.container-7,.container-8,.container-9,.container-10,
   .container-half,.container-third,.container-quarter,.container-fifth,.container-sixth,.container-seventh,.container-eighth,
-  .container-ninth,.container-tenth { flex: 1; }
+  .container-ninth,.container-tenth { /*display:flex;*/ flex: 1; display:inline-block; }
+  /* see https://stackoverflow.com/questions/14416651/including-margin-for-width-and-height */
 }
 
 .container-flex-row {
@@ -157,6 +162,15 @@ html, body, #app, .main-container {
 
 hr { border: 0.5px solid $color-border; }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td { padding: 5px 10px; }
+table, table th, table td { border: 1px solid $color-border; }
+table > thead > tr { border-bottom: 2px solid $color-border; }
+
 input, textarea, select {
   border: 1px solid $color-border;
   background-color: darken($color-primary, 5%);
@@ -171,7 +185,7 @@ textarea.h-resize, textarea.x-resize { resize: horizontal; }
 textarea.v-resize, textarea.y-resize { resize: vertical; }
 
 .input-container {
-  margin: 12px 0;
+  margin: 12.5px 0 25px 0;
 
   label {
     width: 100%;

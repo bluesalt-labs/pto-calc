@@ -25,9 +25,9 @@
           <entry key="js" value="16" />
           <entry key="json" value="3" />
           <entry key="png" value="1" />
-          <entry key="scss" value="1" />
-          <entry key="ts" value="1" />
-          <entry key="vue" value="20" />
+          <entry key="scss" value="2" />
+          <entry key="ts" value="2" />
+          <entry key="vue" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -36,27 +36,32 @@
           <entry key="Image" value="1" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="16" />
-          <entry key="SCSS" value="1" />
-          <entry key="TypeScript" value="1" />
-          <entry key="Vue.js" value="20" />
+          <entry key="SCSS" value="2" />
+          <entry key="TypeScript" value="2" />
+          <entry key="Vue.js" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="30" />
           <entry key="js" value="301" />
-          <entry key="json" value="176" />
-          <entry key="scss" value="2976" />
-          <entry key="vue" value="3434" />
+          <entry key="json" value="211" />
+          <entry key="scss" value="3471" />
+          <entry key="vue" value="7223" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="30" />
-          <entry key="JSON" value="176" />
+          <entry key="JSON" value="211" />
           <entry key="JavaScript" value="301" />
-          <entry key="SCSS" value="2976" />
-          <entry key="Vue.js" value="3434" />
+          <entry key="SCSS" value="3471" />
+          <entry key="Vue.js" value="7223" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -74,11 +79,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../pto-calc/src/layouts/Header.vue">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../pto-calc/src/components/HoursTable.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+                <state relative-caret-position="1710">
+                  <caret line="114" column="68" selection-start-line="114" selection-start-column="68" selection-end-line="114" selection-end-column="68" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../pto-calc/src/assets/scss/base.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -86,26 +100,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../pto-calc/src/layouts/Base.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../pto-calc/src/components/Routes/Home.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../pto-calc/src/assets/scss/base.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="348">
-                  <caret line="167" column="36" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
+                <state relative-caret-position="360">
+                  <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#178#211#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -113,8 +112,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../pto-calc/src/components/UserDataForm.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+                <state relative-caret-position="810">
+                  <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -122,8 +121,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../pto-calc/src/assets/data/userdata.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+                <state relative-caret-position="75">
+                  <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -135,8 +134,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../pto-calc/src/assets/data/userdata.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -184,11 +183,12 @@
         <option value="$PROJECT_DIR$/../pto-calc/src/layouts/Footer.vue" />
         <option value="$PROJECT_DIR$/../pto-calc/src/layouts/Header.vue" />
         <option value="$PROJECT_DIR$/../pto-calc/src/layouts/Base.vue" />
-        <option value="$PROJECT_DIR$/../pto-calc/src/components/Routes/Home.vue" />
         <option value="$PROJECT_DIR$/../pto-calc/src/components/DateInput.vue" />
-        <option value="$PROJECT_DIR$/../pto-calc/src/assets/data/userdata.json" />
         <option value="$PROJECT_DIR$/../pto-calc/src/components/UserDataForm.vue" />
+        <option value="$PROJECT_DIR$/../pto-calc/src/assets/data/userdata.json" />
+        <option value="$PROJECT_DIR$/../pto-calc/src/components/Routes/Home.vue" />
         <option value="$PROJECT_DIR$/../pto-calc/src/assets/scss/base.scss" />
+        <option value="$PROJECT_DIR$/../pto-calc/src/components/HoursTable.vue" />
       </list>
     </option>
   </component>
@@ -258,6 +258,13 @@
               <item name="pto-calc" type="b2602c69:ProjectViewProjectNode" />
               <item name="pto-calc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pto-calc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pto-calc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -275,12 +282,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="Base&#9;FILE&#9;file:///Users/luke/projects/pto-calc/src/layouts/Base.vue&#10;base&#9;FILE&#9;file:///Users/luke/projects/pto-calc/src/assets/scss/base.scss&#10;Home&#9;FILE&#9;file:///Users/luke/projects/pto-calc/src/components/Routes/Home.vue" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/luke/projects/pto-calc/src/assets/scss/base.scss&#10;Home&#9;FILE&#9;file:///Users/luke/projects/pto-calc/src/components/Routes/Home.vue&#10;Base&#9;FILE&#9;file:///Users/luke/projects/pto-calc/src/layouts/Base.vue&#10;base&#9;FILE&#9;file:///Users/luke/projects/pto-calc/src/assets/scss/base.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -310,20 +318,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539195402972</updated>
-      <workItem from="1539195405397" duration="14358000" />
+      <workItem from="1539195405397" duration="21969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14358000" />
+    <option name="totallyTimeSpent" value="21969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="23" width="1920" height="1177" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19062665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21820374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -457,10 +466,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pto-calc/src/layouts/Base.vue">
+    <entry file="file://$PROJECT_DIR$/../pto-calc/src/assets/data/userdata.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="75">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pto-calc/node_modules/moment/moment.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="489" column="4" selection-start-line="489" selection-start-column="4" selection-end-line="489" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pto-calc/src/components/Routes/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#218#264#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -471,31 +497,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pto-calc/src/components/Routes/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../pto-calc/src/assets/data/userdata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pto-calc/src/components/UserDataForm.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        <state relative-caret-position="810">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pto-calc/src/layouts/Base.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="e#178#211#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../pto-calc/src/assets/scss/base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="167" column="36" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pto-calc/src/components/HoursTable.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="68" selection-start-line="114" selection-start-column="68" selection-end-line="114" selection-end-column="68" />
         </state>
       </provider>
     </entry>
