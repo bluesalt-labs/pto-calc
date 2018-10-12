@@ -75,7 +75,7 @@
           // Sort the output array before continuing
           output.sort(sortOutputCallback);
 
-          var hoursPerDate = this.userData.hours_per_period;
+          var hoursPerDate = parseInt(this.userData.hours_per_period);
           var prevHours = this.userData.start_hours;
 
           for(var i in output) {

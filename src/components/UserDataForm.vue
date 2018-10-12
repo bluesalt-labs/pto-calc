@@ -5,7 +5,7 @@
       <h3>User Information</h3>
       <div class="input-container">
         <label for="hours_per_period">Hours Accrued<br />(per pay period)</label>
-        <input type="text" id="hours_per_period" name="hours_per_period" v-model="userData.hours_per_period" />
+        <input type="number" min="0" max="80" step="1" id="hours_per_period" name="hours_per_period" v-model="userData.hours_per_period" />
       </div>
 
       <div class="input-container">
