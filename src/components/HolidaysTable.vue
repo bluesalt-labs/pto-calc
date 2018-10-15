@@ -67,7 +67,7 @@
               year++
             ) {
               // Figure out what the loop's end date should be
-              loopDateRange.end = moment().set({ "year": year, "month": 12, "date": 31 });
+              loopDateRange.end = moment().set({ "year": year, "month": 11, "date": 31 });
 
               // Don't allow the loop end date to be outside dateRange
               if(loopDateRange.end > this.dateRange.end) {
