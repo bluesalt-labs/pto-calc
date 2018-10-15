@@ -8,5 +8,8 @@
       "date": "2018-10-26",
       "hours": 8
     }
+  ],
+  "floating_holidays": [
+    "2018-01-01"
   ]
 }

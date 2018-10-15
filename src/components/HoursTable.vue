@@ -33,8 +33,7 @@
       },
       dateFormat: {
         type: String,
-        required: false,
-        default: "MMMM Do YYYY"
+        required: true
       }
     },
     computed: {

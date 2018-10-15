@@ -1,0 +1,17 @@
+{
+  "0": {
+    "hours_per_period": 4.33,
+    "start_year_count": 0,
+    "end_year_count": 4
+  },
+  "1": {
+    "hours_per_period": 6,
+    "start_year_count": 5,
+    "end_year_count": 8
+  },
+  "2": {
+    "hours_per_period": 7.33,
+    "start_year_count": 9,
+    "end_year_count": 999
+  }
+}

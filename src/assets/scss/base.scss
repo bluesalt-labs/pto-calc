@@ -44,11 +44,13 @@ $percent-tenth:   10%;
 body { line-height: 1; }
 
 html, body, #app {
-  background: transparent;
-  position: absolute;
-  width: 100vw;
   top: 0; left: 0; right: 0; bottom: 0;
   margin: 0; padding: 0; border: 0;
+  background: transparent;
+  position: absolute;
+  overflow-x: hidden;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 html, body, #app, .main-container {
@@ -72,7 +74,6 @@ html, body, #app, .main-container {
 
 .main-container {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
   position: relative;
 }
