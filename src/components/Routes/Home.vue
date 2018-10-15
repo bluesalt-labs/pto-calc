@@ -9,7 +9,7 @@
     ></UserDataForm>
     <hr />
 
-    <div class="container-flex-column">
+    <div class="container-flex-row">
       <div class="container-half container-gutter">
         <h2>PTO Hours</h2>
         <HoursTable
@@ -27,6 +27,8 @@
         ></HolidaysTable>
       </div>
     </div>
+
+    <hr />
 
   </div>
 </template>

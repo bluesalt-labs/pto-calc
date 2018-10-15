@@ -198,15 +198,17 @@ textarea.v-resize, textarea.y-resize { resize: vertical; }
     padding: 5px 10px;
     width: 100%;
     font-size:1.1em;
-
+    border-radius: 6px;
   }
 
-  input[type="text"], textarea { border-radius: 6px; }
+  input[type="text"], textarea { }
 
-  input[type="text"]:active,
-  input[type="text"]:focus,
+  input:active,
+  input:focus,
   textarea:active,
-  textarea:focus{
+  textarea:focus,
+  select:active,
+  select:focus {
     border-color: $color-cloud;
     outline: 1px solid lighten($color-cloud, 10%);
     box-shadow: 0 0 0.25pt 0.5pt lighten($color-cloud, 10%);
