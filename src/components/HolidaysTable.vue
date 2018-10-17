@@ -137,10 +137,19 @@
         return holidayDate;
       },
       getNthDayInMonth: function(year, month, rule) {
-        var day = moment().set({ 'year': year, 'month': month, 'day': rule[0] });
+        var day = moment().set({ 'year': year, 'month': month, 'date': 1 });
+
+        // Get to the first instance of the specified day
+        for(var i = 0; i < 8; i++) {
+          if(day.format("dddd") === rule[0] || day.day() === rule[0]) {
+            break;
+          }
+
+          day.add(1, 'days');
+        }
 
         if(rule[1] > 1) {
-          day.add(7 * rule[1], 'days');
+          day.add(7 * (rule[1] - 1), 'days');
         }
         else if(rule[1] === -1) {
           var prevDate = day.date();

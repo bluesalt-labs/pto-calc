@@ -1,16 +1,16 @@
 {
   "0":  {
-    "title":   "New Year's Day",
+    "title":  "New Year's Day",
     "month":  "January",
     "date":    1
   },
   "1":  {
-    "title":   "Martin Luther King Jr. Day",
+    "title":  "Martin Luther King Jr. Day",
     "month":  "January",
     "rule":   ["Monday", 3]
   },
   "2":  {
-    "title":   "President's Day",
+    "title":  "President's Day",
     "month":  "February",
     "rule":   ["Monday", 3]
   },
@@ -21,7 +21,7 @@
     "rule":   ["Monday", -1]
   },
   "4":  {
-    "title":   "Independence Day",
+    "title":  "Independence Day",
     "month":  "July",
     "date":    4
   },
@@ -31,27 +31,27 @@
     "rule":   ["Monday", 1]
   },
   "6":  {
-    "title":   "Veterans Day",
+    "title":  "Veterans Day",
     "month":  "November",
     "date":    11
   },
   "7":  {
-    "title":   "Thanksgiving Day",
+    "title":  "Thanksgiving Day",
     "month":  "November",
     "rule":   ["Thursday", 4]
   },
   "8":  {
-    "title":   "Day After Thanksgiving Day",
+    "title":  "Day After Thanksgiving Day",
     "month":  "November",
     "rule":   ["Friday", 4]
   },
   "9":  {
-    "title":   "Christmas Eve",
+    "title":  "Christmas Eve",
     "month":  "December",
     "date":    24
   },
   "10": {
-    "title":   "Christmas Day",
+    "title":  "Christmas Day",
     "month":  "December",
     "date":    25
   }
